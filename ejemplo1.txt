@@ -1,0 +1,6 @@
+function example(person){
+return "hola, " + person;
+}
+let user = "jorge";
+
+document.body.innerHTML=example(user);
