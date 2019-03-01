@@ -17,6 +17,6 @@ function example(person: Estudiante){
 return "hola, " + person.Nombre + " " + person.Apellido;
 }
 let user = new Estudiante("JORGE ARMANDO", "OCHOA VAZQUEZ");
-//let user = {nombre: "jorge ochoa", apellido: "vazquez"}
+//let user = {nombre: "jorge-armando", apellido: "ochoa-vazquez"}
 
 document.body.innerHTML=example(user);
